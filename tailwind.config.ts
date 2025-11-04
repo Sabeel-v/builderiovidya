@@ -57,6 +57,27 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        vidya: {
+          blue: {
+            DEFAULT: "#0E5284",
+            dark: "#0D5183",
+            light: "#3A92D2",
+          },
+          teal: {
+            DEFAULT: "#1B9FA7",
+            light: "#33A9B0",
+          },
+          coral: {
+            DEFAULT: "#F37666",
+            dark: "#F37565",
+          },
+          gray: {
+            light: "#EFF3F5",
+            medium: "#E0E9EF",
+            blue: "#B3DAF7",
+            darker: "#7CB9E7",
+          },
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
