@@ -35,7 +35,9 @@ export function AboutSection() {
                 <div className="text-5xl font-bold text-vidya-blue mb-2">
                   35<span className="text-vidya-coral">+</span>
                 </div>
-                <div className="text-3xl font-bold text-vidya-blue">Programs</div>
+                <div className="text-3xl font-bold text-vidya-blue">
+                  Programs
+                </div>
               </div>
               <div className="border border-gray-300 rounded-2xl p-6 text-center">
                 <div className="text-5xl font-bold text-vidya-blue mb-2">

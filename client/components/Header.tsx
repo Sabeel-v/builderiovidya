@@ -16,7 +16,10 @@ export function Header() {
           <Link to="/" className="hover:text-vidya-blue transition-colors">
             Home
           </Link>
-          <Link to="/courses" className="hover:text-vidya-blue transition-colors">
+          <Link
+            to="/courses"
+            className="hover:text-vidya-blue transition-colors"
+          >
             Courses
           </Link>
           <Link to="/about" className="hover:text-vidya-blue transition-colors">

@@ -29,7 +29,10 @@ export function PopularProgramsSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {programs.map((program, idx) => (
-            <div key={idx} className={`${program.bg} rounded-[30px] overflow-hidden`}>
+            <div
+              key={idx}
+              className={`${program.bg} rounded-[30px] overflow-hidden`}
+            >
               <div className="p-8">
                 <img
                   src={program.image}

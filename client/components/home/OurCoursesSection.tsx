@@ -56,9 +56,13 @@ export function OurCoursesSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className={`${courses[0].bg} rounded-[30px] p-8 relative overflow-hidden`}>
+          <div
+            className={`${courses[0].bg} rounded-[30px] p-8 relative overflow-hidden`}
+          >
             <img src={courses[0].icon} alt="" className="w-14 h-auto mb-6" />
-            <h3 className={`text-3xl font-bold ${courses[0].textColor} whitespace-pre-line mb-4`}>
+            <h3
+              className={`text-3xl font-bold ${courses[0].textColor} whitespace-pre-line mb-4`}
+            >
               {courses[0].title}
             </h3>
             <p className="text-lg leading-7 mb-6">
@@ -93,7 +97,9 @@ export function OurCoursesSection() {
             </button>
           </div>
 
-          <div className={`${courses[1].bg} rounded-[30px] p-8 relative overflow-hidden row-span-2`}>
+          <div
+            className={`${courses[1].bg} rounded-[30px] p-8 relative overflow-hidden row-span-2`}
+          >
             <img src={courses[1].icon} alt="" className="w-16 h-auto mb-6" />
             <h3 className={`text-3xl font-bold ${courses[1].textColor} mb-64`}>
               {courses[1].title}
@@ -107,23 +113,33 @@ export function OurCoursesSection() {
             )}
           </div>
 
-          <div className={`${courses[2].bg} rounded-[30px] p-8 relative overflow-hidden row-span-2`}>
+          <div
+            className={`${courses[2].bg} rounded-[30px] p-8 relative overflow-hidden row-span-2`}
+          >
             <img src={courses[2].icon} alt="" className="w-16 h-auto mb-6" />
-            <h3 className={`text-3xl font-bold ${courses[2].textColor} whitespace-pre-line`}>
+            <h3
+              className={`text-3xl font-bold ${courses[2].textColor} whitespace-pre-line`}
+            >
               {courses[2].title}
             </h3>
           </div>
 
-          <div className={`${courses[3].bg} rounded-[30px] p-8 relative overflow-hidden`}>
+          <div
+            className={`${courses[3].bg} rounded-[30px] p-8 relative overflow-hidden`}
+          >
             <img src={courses[3].icon} alt="" className="w-12 h-auto mb-6" />
             <h3 className={`text-3xl font-bold ${courses[3].textColor}`}>
               {courses[3].title}
             </h3>
           </div>
 
-          <div className={`${courses[4].bg} rounded-[30px] p-8 relative overflow-hidden`}>
+          <div
+            className={`${courses[4].bg} rounded-[30px] p-8 relative overflow-hidden`}
+          >
             <img src={courses[4].icon} alt="" className="w-16 h-auto mb-6" />
-            <h3 className={`text-3xl font-bold ${courses[4].textColor} whitespace-pre-line`}>
+            <h3
+              className={`text-3xl font-bold ${courses[4].textColor} whitespace-pre-line`}
+            >
               {courses[4].title}
             </h3>
           </div>

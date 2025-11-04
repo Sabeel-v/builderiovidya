@@ -18,7 +18,7 @@ export function AcademicPartnersSection() {
     {
       image:
         "https://api.builder.io/api/v1/image/assets/TEMP/80aede2ae8287d1781cddd4d08abf3665760a0be?width=348",
-        alt: "ISDC",
+      alt: "ISDC",
     },
   ];
 
